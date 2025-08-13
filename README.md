@@ -1,56 +1,52 @@
 # Video_deepfake_detection
 
-🚀 How to Run This Deepfake Detection App on Your PC
+Steps to Run Video_deepfake_detection on Your PC
 Follow these simple steps to set up and run the project locally! 🧠🎥
 
-📦 1. Clone the Repository
+1️⃣ Clone the Repository
 
-  git clone https://github.com/garvvneve/Video_deepfake_detection.git
-  
-  cd Video_deepfake_detection
+  git clone https://github.com/NandiniRaut/Video_deepfake_detection.git
+cd Video_deepfake_detection
 
 
-📥 2. Install Required Dependencies
+2️⃣ Install Dependencies
 
-  pip install -r requirements.txt
+ pip install -r requirements.txt
   📌 Make sure Python 3.7 or higher is installed.
 
-📁 3. Download the Trained Model (.h5)
-  Since GitHub doesn't support large files (>100MB), download the model manually:
+3️⃣ Go to: Download Model
+
+Save the file in the project root directory as:
   
-  👉 https://drive.google.com/drive/folders/1IqemQZ2Y52GD3SS4VMUZqhCURVnSM7R3?usp=sharing
+  👉 https://drive.google.com/file/d/1cZkm6z4a4mz_YSMgttFBZWmnuOh4gSNX/view?usp=sharing
   
   Then place the file in the root directory of the project as:
   deepfake_detection_model_updated4.h5
 
-🚪 4. Run the Streamlit App
-
-  streamlit run home.py
+4️⃣ Run the Streamlit App
+streamlit run home.py
   ✅ Done! Now open your browser at:
   http://localhost:8501
 
-You'll be able to:
+What You Can Do with This App
+📤 Upload Videos for analysis
 
-  📤 Upload a video
-  
-  🧠 Run Deepfake detection using the trained model
-  
-  📊 See prediction stats and animated visualizations
-  
-  🧑‍💼 Log in or register as a user
-  
-  🔐 Secure your activity and history
+🧠 Detect Deepfakes using a pre-trained AI model
 
-👨‍💻 Project Features
-  🔒 Secure Login and Registration
-  
-  🎥 Frame-by-frame Deepfake Video Analysis
-  
-  📊 Pie Charts & Time-Series Visualizations using Plotly
+📊 View Results Visually with interactive stats and animations
 
+🧑‍💼 Create an Account or log in to track your activity
 
-❓ Need Help?
-Feel free to raise an issue or contact me! 💬
+🔐 Keep Your Data Secure with user authentication
+
+Key Features
+🔒 Secure Login & Registration system
+
+🎥 Frame-by-Frame Deepfake Detection for higher accuracy
+
+📊 Interactive Charts & Visualizations with Plotly
+
+⚡ Fast Processing for quick video analysis
 
 
 Here is how the project looks like :)
