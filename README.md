@@ -5,13 +5,15 @@ Follow these simple steps to set up and run the project locally! 🧠🎥
 
 1️⃣ Clone the Repository
 
-  git clone https://github.com/NandiniRaut/Video_deepfake_detection.git
+  git clone https://github.com/NandiniRaut-113/Video_deepfake_detection.git
+  
 cd Video_deepfake_detection
 
 
 2️⃣ Install Dependencies
 
  pip install -r requirements.txt
+ 
   📌 Make sure Python 3.7 or higher is installed.
 
 3️⃣ Go to: Download Model
@@ -24,11 +26,15 @@ Save the file in the project root directory as:
   deepfake_detection_model_updated4.h5
 
 4️⃣ Run the Streamlit App
+
 streamlit run home.py
+
   ✅ Done! Now open your browser at:
+  
   http://localhost:8501
 
 What You Can Do with This App
+
 📤 Upload Videos for analysis
 
 🧠 Detect Deepfakes using a pre-trained AI model
@@ -40,6 +46,7 @@ What You Can Do with This App
 🔐 Keep Your Data Secure with user authentication
 
 Key Features
+
 🔒 Secure Login & Registration system
 
 🎥 Frame-by-Frame Deepfake Detection for higher accuracy
